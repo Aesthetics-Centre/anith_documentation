@@ -64,7 +64,7 @@ refresh the page in few minutes to see the published link.
 
 ---
 
-## Step 3 — Edit Your Site
+## Step 3 — Edit Your Site on Codespaces.
 
 You have two ways to edit your site. **Codespaces is strongly recommended.**
 
@@ -99,7 +99,7 @@ You have two ways to edit your site. **Codespaces is strongly recommended.**
 
 Every time you save and push your changes to GitHub, the site rebuilds automatically.
 
-for now we will edit the deploy.yml file to make sure we can deploy our github pages on gh-pages branch. 
+for now we will edit the deploy.yml file which you can find inside .github/workflows folder inside the codespaces to make sure we can deploy our github pages on gh-pages branch. 
 
 Copy this code :
 
