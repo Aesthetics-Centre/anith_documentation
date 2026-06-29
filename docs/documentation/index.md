@@ -52,6 +52,16 @@ Mostly used software in Fab Lab
 
 <div class="doc-card" style="background-image: url('https://gitlab.com/anithghalley/robotics_for_students/-/raw/main/Images/robotics_images/led_resistor_simulation.png?ref_type=heads');" markdown>
 
+### 🚀 Image Stacking
+
+Image stacking with Siril and StarMet
+
+[:octicons-arrow-right-24: Read Guide](image_statcking_Siril.md)
+
+</div>
+
+<div class="doc-card" style="background-image: url('https://drive.google.com/thumbnail?id=1vLYsT1vTV92vH9ip0NfFCjL5kiDjnh3y&sz=w800');" markdown>
+
 ### 🚀 TinkerCad Simulation
 
 Documentation on how to simulate in Thinkercad Circuit
