@@ -60,7 +60,7 @@ Image stacking with Siril and StarMet
 
 </div>
 
-<div class="doc-card" style="background-image: url('https://drive.google.com/thumbnail?id=1vLYsT1vTV92vH9ip0NfFCjL5kiDjnh3y&sz=w800');" markdown>
+<div class="doc-card" style="background-image: url('https://drive.google.com/thumbnail?id=1vckkKiw4VYqrtBy6Klcx49GVrRNAu06G&sz=w800');" markdown>
 
 ### 🚀 TinkerCad Simulation
 
