@@ -50,7 +50,7 @@ Mostly used software in Fab Lab
 
 </div>
 
-<div class="doc-card" style="background-image: url('https://gitlab.com/anithghalley/robotics_for_students/-/raw/main/Images/robotics_images/led_resistor_simulation.png?ref_type=heads');" markdown>
+<div class="doc-card" style="background-image: url('https://drive.google.com/thumbnail?id=1vckkKiw4VYqrtBy6Klcx49GVrRNAu06G&sz=w800');" markdown>
 
 ### 🚀 Image Stacking
 
@@ -60,7 +60,7 @@ Image stacking with Siril and StarMet
 
 </div>
 
-<div class="doc-card" style="background-image: url('https://drive.google.com/thumbnail?id=1vckkKiw4VYqrtBy6Klcx49GVrRNAu06G&sz=w800');" markdown>
+<div class="doc-card" style="background-image: url('https://gitlab.com/anithghalley/robotics_for_students/-/raw/main/Images/robotics_images/led_resistor_simulation.png?ref_type=heads');" markdown>
 
 ### 🚀 TinkerCad Simulation
 
