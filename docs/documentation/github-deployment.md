@@ -94,6 +94,8 @@ You have two ways to edit your site. **Codespaces is strongly recommended.**
     5. Terminal to send commands
     6. AI agent for assistance.
 
+> The task below has already been updated therefore you should bw able to deploy the github pages and you should be able see `gh-pages` under the setting tab.
+
 
 ## Step 4 — Save and Publish Your Changes
 
