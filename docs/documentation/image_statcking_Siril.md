@@ -134,7 +134,7 @@ after this, you can work on different aspect to amplify the details as per your 
 
 Now as you have notices the details of the stars has also been amplify and for this purpose we will use this tool called "StarNet"
 
-you can download the StarNet tool from this [Lin](https://starnetastro.com/cli-tools/starnet/) and download based on your operating system.
+you can download the StarNet tool from this [Link](https://starnetastro.com/cli-tools/starnet/) and download based on your operating system.
 
 after this you can install the package.
 
