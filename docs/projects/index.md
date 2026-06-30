@@ -17,6 +17,22 @@ covering objectives, implementation, and results.
      ============================================================ -->
 
 <div class="project-card-horizontal" markdown>
+
+<div class="project-card-image" style="background-image: url('https://drive.google.com/thumbnail?id=1lJF64u4UmLNtrHdB5WT4IilpH4-UBSXz&sz=w600');"></div>
+<div class="project-card-content" markdown>
+
+### Laser Log
+
+<span class="status-badge in-progress">Template</span>
+
+This project will be a rfid log system where user can start or end a Laser cutter session
+
+**Tech Stack:** `Tool 1` · `Tool 2` · `Tool 3`
+
+[:octicons-arrow-right-24: View Project Details](laser_log.md)
+
+</div>
+
 <div class="project-card-image" style="background-image: url('https://drive.google.com/thumbnail?id=1lJF64u4UmLNtrHdB5WT4IilpH4-UBSXz&sz=w600');"></div>
 <div class="project-card-content" markdown>
 

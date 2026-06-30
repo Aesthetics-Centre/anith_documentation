@@ -160,4 +160,5 @@ nav:
 
   - Projects:
       - Overview: projects/index.md
+      - Laser Log : projects/laser_log.md
       - "Project Template": projects/project-template.md
