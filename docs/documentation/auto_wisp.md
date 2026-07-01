@@ -41,6 +41,19 @@ the image below shows the interface when you click on the project home field
 
 
 
+
+## errors I got:
+
+after the autowisp started to the process but then i found an error at the astrometry step.
+
+![Description](https://drive.google.com/thumbnail?id=1cRf8eQ4m9AVCuysAPKr5RL7JtjppY0kR&sz=w800)
+
+and when the error was expanded it showed this detail.
+
+![Description](https://drive.google.com/thumbnail?id=1eqHRIZYGbvZIFJvgrmuWfB_oOEZFXbkK&sz=w800)
+
+
+
 - calibrate: basically looking at the files - form the header (RA. DEC and )
 - fins star: locating the star
 - solve astrometry : finds the images and name it using astrometic.net

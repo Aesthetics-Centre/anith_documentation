@@ -149,7 +149,9 @@ nav:
   - Documentation:
       - Overview: documentation/index.md
       - "Deploy to GitHub Pages": documentation/github-deployment.md
+      - Panoptes Basics : documentation/panoptes_basic.md 
       - Stacking with Siril : documentation/image_statcking_Siril.md
+      - Light Curve with Auto Wisp: documentation/auto_wisp.md
       - "Expectation and Roles" : documentation/expectation.md
       - Getting Started Guide: documentation/getting-started.md
       - Basic Simulation TinkerCad : documentation/basic_simulation.md
