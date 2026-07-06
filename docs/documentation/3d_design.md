@@ -72,9 +72,7 @@ once you have selected the face then an arrow will appear, using that arrow you 
 
 And on the right hand side of the screen you will see a panel where you can adjust what kind of operation you would like to have while extruding.
 
-![Description](https://drive.google.com/thumbnail?id=1sX9kFPMlUVUDf_aqzjXoniJKIVoig0bN&sz=w800)
-
-- image of the cube_made
+![Description](https://drive.google.com/thumbnail?id=1rWPZXj8PskoChH3qY8Z5pBkBC758iNi6&sz=w800)
 
 ## Modifying
 
