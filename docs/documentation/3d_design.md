@@ -70,8 +70,72 @@ once you have selected the face then an arrow will appear, using that arrow you 
 
 ![Description](https://drive.google.com/thumbnail?id=1sX9kFPMlUVUDf_aqzjXoniJKIVoig0bN&sz=w800)
 
-And on the left hand side of the screen you will see a panel where you can adjust what kind of operation you would like to have while extruding.
+And on the right hand side of the screen you will see a panel where you can adjust what kind of operation you would like to have while extruding.
 
+![Description](https://drive.google.com/thumbnail?id=1sX9kFPMlUVUDf_aqzjXoniJKIVoig0bN&sz=w800)
+
+- image of the cube_made
+
+## Modifying
+
+Now that we have created our 3D model but for design purpose we will create a box.
+
+- image of final model.
+
+Now for a box we need the internal part of the object to be hollow therefore we need to create a boundary sketch as given below.
+
+![Description](https://drive.google.com/thumbnail?id=1yhz9Q7gWeP7ZIV8pRs-rryfQoS6-yz-2&sz=w800)
+
+Therefore to do this we can make use of the timeline which can be found at the base of the interface.
+
+![Description](https://drive.google.com/thumbnail?id=1pIMe4--Ldn6tN5CFeFVdyg_-S5WG6qox&sz=w800)
+
+- right click on the sketch where you would like to edit.
+- then click on edit sketch 
+
+Now you go back in time and now we can edit some changes and accordingly the features ahead of the timeline will also update.
+
+![Description](https://drive.google.com/thumbnail?id=1QqKdnEvqNOQeXQqHAK6dEtW79OWHToKF&sz=w800)
+
+Now as you can see we can edit our first sketch. 
+
+### Edit Sketch
+
+To create a sketch with equal ratio offset on all side we can use the offset feature.
+
+![Description](https://drive.google.com/thumbnail?id=1U9pJJrY7q3pbbDmPHiDghKsADhdH1Bdy&sz=w800)
+
+1. Click the offset tool from the menu
+2. Select the reference sketch
+3. Drag the line inside or
+4. Define the offset length.
+5. Click OK
+
+After clicking ok, we can see a new sketch inside our original sketch.
+
+![Description](https://drive.google.com/thumbnail?id=1B4GFtF5B44--Rg_etHbxmwwqI4iA2KOw&sz=w800)
+
+- Then once your done you can click on Finish to complete the edit.
+
+### Edit Object.
+
+After finishing your sketch you will be back on lattest timeline and we will also see the solid cube.
+
+![Description](https://drive.google.com/thumbnail?id=1krO7Mhve6o2zECzibpNGWNA_sXzqAZbc&sz=w800)
+
+1. click the down arrow of the sketch tab. This will show all the sketches that we had created.
+2. Click on the EyeBall icon and now we can see our oudated sketch.
+
+![Description](https://drive.google.com/thumbnail?id=1zzCacOMxV1QRujQ5nKkmHuZFBTtowush&sz=w800)
+
+The above image shows the view from the base. Then you can click/Select the internal square and press 'E' (Extrude)
+
+![Description](https://drive.google.com/thumbnail?id=1cATfK5PFUK4Z12YeloraAGaMK0XIFKV0&sz=w800)
+
+
+Now if we move around the navigation cube then we can see a hollow shape.
+
+![Description](https://drive.google.com/thumbnail?id=1AG8afw9c6vnu88j0kyviEwxvBAyb8xIc&sz=w800)
 
 
 ## Real life projects
