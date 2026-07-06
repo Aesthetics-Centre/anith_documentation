@@ -148,17 +148,17 @@ nav:
 
   - Documentation:
       - Overview: documentation/index.md
-      - "Deploy to GitHub Pages": documentation/github-deployment.md
+      - Deploy to GitHub Pages: documentation/github-deployment.md
       - Panoptes Basics : documentation/panoptes_basic.md 
       - Stacking with Siril : documentation/image_statcking_Siril.md
       - Light Curve with Auto Wisp: documentation/auto_wisp.md
-      - "Expectation and Roles" : documentation/expectation.md
+      - Expectation and Roles : documentation/expectation.md
       - Getting Started Guide: documentation/getting-started.md
       - Basic Simulation TinkerCad : documentation/basic_simulation.md
       - Softwares : documentation/installation.md 
       - Blinking LED : documentation/led_blink.md
-      - "Blank Template": documentation/template.md
-      - "3D Designing": documentation/3d_design.md
+      - Blank Template: documentation/template.md
+      - 3D Designing: documentation/3d_design.md
 
   - Projects:
       - Overview: projects/index.md
