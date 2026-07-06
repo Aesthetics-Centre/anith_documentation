@@ -5,7 +5,7 @@ In this documentation, we will explore and practice designing using Autodesk fus
 ![Description](https://drive.google.com/thumbnail?id=12UuPOMzddO9BSy0BFGLeQ9YGcZpkL6w9&sz=w800)
 
 
-## Downloading the software
+## Downloading the software.
 
 there are three ways we can download and install the software.
 
