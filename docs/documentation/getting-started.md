@@ -157,40 +157,7 @@ languages or steps for different operating systems.
 
 ---
 
-## 🖼️ Embedding Images from Google Drive
 
-To embed an image stored in Google Drive:
-
-1. **Upload** your image to Google Drive
-2. **Share** it: Right-click → Share → Change to **"Anyone with the link"**
-3. **Copy the link** — it will look like:
-   ```
-   https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing
-   ```
-4. **Extract the FILE_ID** (the long string after `/d/`)
-5. **Use this Markdown** in your `.md` file:
-
-```markdown
-![Image Description](https://drive.google.com/thumbnail?id=YOUR_FILE_ID&sz=w800)
-```
-
-!!! tip "Image Size Control"
-
-    Change `sz=w800` to adjust width:  
-    - `sz=w400` — small  
-    - `sz=w800` — medium  
-    - `sz=w1200` — large  
-
-### Example (replace with your image)
-
-<!-- Uncomment and replace YOUR_FILE_ID with a real Google Drive file ID:
-![Sample Image](https://drive.google.com/thumbnail?id=YOUR_FILE_ID&sz=w800)
-<p class="drive-image-caption">Caption: Describe your image here</p>
--->
-
-_⬆️ Uncomment the block above and replace `YOUR_FILE_ID` to see your image!_
-
----
 
 ## 🔗 Useful Links
 

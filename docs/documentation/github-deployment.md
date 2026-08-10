@@ -17,7 +17,7 @@ No Python or software installation is needed if you use **Codespaces**. It is a 
 
 ## Step 1 — Fork or Copy the Repository
 
-    1. Open the GitHub repo link your teacher shared
+    1. Open the GitHub repo [link](https://github.com/Aesthetics-Centre/sample_fab_docum)
     2. Click the **Fork** button (top-right corner)
     3. Keep the default settings or just change the project name and click **Create fork**
     4. You now have your own copy — continue to Step 2
@@ -55,6 +55,8 @@ Keep the default settings or just change the project name and click **Create for
    - Branch: `gh-pages`
    - Folder: `/ (root)`
 5. Click **Save**
+
+https://drive.google.com/file/d/190mtTtHdUD9Jc7oBk7n6KnX84GyQwI5c/view?usp=drive_link
 
 refresh the page in few minutes to see the published link.
 
@@ -101,67 +103,33 @@ You have two ways to edit your site. **Codespaces is strongly recommended.**
 
 Every time you save and push your changes to GitHub, the site rebuilds automatically.
 
-for now we will edit the deploy.yml file which you can find inside .github/workflows folder inside the codespaces to make sure we can deploy our github pages on gh-pages branch. 
+Once you open code space you will see these files and folders
+1. .github : code that handles the deployment of the site
+2. docs : Files that we can edit to update our documentation in markdown.
+3. .gitignore
+4. mkdocs.yml
+5. README.md
+6. requirment.txt
 
-Copy this code :
 
-```
-name: Deploy MkDocs to GitHub Pages
-
-on:
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: write
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.x
-
-      - name: Install MkDocs
-        run: pip install mkdocs mkdocs-material
-
-      - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force
-```
 
 === "In Codespaces"
 
 ![Description](https://drive.google.com/thumbnail?id=1-cS4ArzwnVciyTFE9oA2gRRxOhs8rHHd&sz=w800)
 
-Press `Ctrl+S` (or `Cmd+S` on Mac) to save your file
+you can edit any one file and the file will be auto saved and the number file edits will be indiacted on the **Source Control** icon in the left sidebar.
     
-    1. Click the **Source Control** icon in the left sidebar (it looks like a branch)
-    2. In the **Message** box, type a short description of your change  
-       Example: `Update my About Me page`
-    3. make sure those files you want to update on your website is added from chnages tab to staged changes
+  1. Click the **Source Control** icon in the left sidebar (it looks like a branch)
+  2. In the **Message** box, type a short description of your change  
+      Example: `Update my About Me page`
+  3. make sure those files you want to update on your website is added from chnages tab to staged changes
 
 ![Description](https://drive.google.com/thumbnail?id=1QcgkKp5AFyykePvM3KEKrDK0C4tOCieb&sz=w800)  
 
-    4. Then once the files you want to update to your site is in the staged changes then:
-        1. you can click on the arrow.
-        2. Then click on commit and push.
+  4. Then once the files you want to update to your site is in the staged changes then:
+      1. you can click on the arrow.
+      2. Then click on commit and push.
 
-OR you can also push the update using the terminal.
-
-    !!! tip
-        You can also use the terminal inside Codespaces:
-        ```bash
-        git add .
-        git commit -m "Your message here"
-        git push
-        ```
 ---
 
 ## Step 5 — Watch the Deployment Run
@@ -179,28 +147,59 @@ OR you can also push the update using the terminal.
 !!! note "How long does it take?"
     Usually **1–3 minutes** from when you push your changes.
 
+After the deployment is done then on your repository you see a **green tick ✅** mark as shown below.
+
+![Description](https://drive.google.com/thumbnail?id=1x17fsGEG0hzEjXqGbRaCtRjOQyERsqcI&sz=w800) 
+
+
+Then you can click on the setting tab and then go to pages and update the branch to gh-pages as shown below:
+
+![Description](https://drive.google.com/thumbnail?id=1Baliq9wNQ9ZgKLRO5dJRsI2BGnzhcGwh&sz=w800) 
+
+
+then once saving, it might take few seconds and then when you refresh the browser then then published link will now start showing your documentation site.
+
+**From now on you you can just edit the files on codespace and push, the workflow will automatically upate the website.**
 ---
 
 ## Note
 
-Now you can go to setting --> Pages and select "gh-pages" from select branch and then save. After sometime you will find your site link.
+To make sure we save the storage on github repo, we can store our images on google drive.
+- make sure the access to the folder where you store the images is anyone with the link.
+- role must be atleast "Viewer"
 
-## Step 6 — Visit Your Live Website
+To embed an image stored in Google Drive:
 
-Your site URL follows this pattern:
+1. **Upload** your image to Google Drive
+2. **Copy the link** — it will look like:
+   ```
+   https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing
+   ```
+3. **Extract the FILE_ID** (the long string after `/d/`)
+4. **Use this Markdown** in your `.md` file:
 
+```markdown
+![Image Description](https://drive.google.com/thumbnail?id=YOUR_FILE_ID&sz=w800)
 ```
-https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
-```
 
-**Example:** if your GitHub username is `ahmed` and the repo is `my-docs`:
-```
-https://ahmed.github.io/my-docs/
-```
+!!! tip "Image Size Control"
 
-You can find the exact URL in **Settings → Pages** (it appears at the top once the site is live).
+    Change `sz=w800` to adjust width:  
+    - `sz=w400` — small  
+    - `sz=w800` — medium  
+    - `sz=w1200` — large  
+
+### Example (replace with your image)
+
+<!-- Uncomment and replace YOUR_FILE_ID with a real Google Drive file ID:
+![Sample Image](https://drive.google.com/thumbnail?id=YOUR_FILE_ID&sz=w800)
+<p class="drive-image-caption">Caption: Describe your image here</p>
+-->
+
+_⬆️ Uncomment the block above and replace `YOUR_FILE_ID` to see your image!_
 
 ---
+```
 
 ## 📝 What to Edit
 
