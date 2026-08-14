@@ -159,7 +159,7 @@ nav:
       - Blinking LED : documentation/led_blink.md
       - Blank Template: documentation/template.md
       - 3D Designing: documentation/3d_design.md
-      - Test : documentation/test.md
+      - CNC Frame (Fusion360) : documentation/CNC_Frame.md
 
   - Projects:
       - Overview: projects/index.md
