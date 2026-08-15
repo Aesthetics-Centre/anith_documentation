@@ -110,13 +110,23 @@ Copy this template to create new documentation pages quickly.
 
 </div>
 
-<div class="doc-card" style="background-image: url('https://drive.google.com/thumbnail?id=YOUR_FILE_ID&sz=w800');" markdown>
+<div class="doc-card" style="background-image: url('https://drive.google.com/thumbnail?id=1AsCfjgCw3bjLQo3i22QtAu8UhmYtG4X9&sz=w800');" markdown>
 
 ### 🚀 3D Designing
 
 Your first 3D design project.
 
 [:octicons-arrow-right-24: Read Guide](3d_design.md)
+
+</div>
+
+<div class="doc-card" style="background-image: url('https://drive.google.com/thumbnail?id=1ZjgRJWL-JIECZ91lsBazkVHkMtzo0-Iu&sz=w800');" markdown>
+
+### 🚀 2.5 D CNC Frame
+
+2.5 D milling with CNC shopbot
+
+[:octicons-arrow-right-24: Read Guide](CNC_Frame.md)
 
 </div>
 

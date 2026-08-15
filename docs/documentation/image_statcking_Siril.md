@@ -166,6 +166,11 @@ and then once you are done you can export the image in png or fits as per your r
 
 ![Description](https://drive.google.com/thumbnail?id=1vckkKiw4VYqrtBy6Klcx49GVrRNAu06G&sz=w800)
 
+## Panoptes Team
+
+![Description](https://drive.google.com/thumbnail?id=1K8PAD9jwc0ZWW4zLnbzRvHnZZpQcOdai&sz=w800)
+
+Please reachout to these individual if you want to take pictures using panoptes and to download them.
 
 
 
