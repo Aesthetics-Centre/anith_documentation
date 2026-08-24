@@ -100,6 +100,16 @@ Documentation on how to control an LED
 
 </div>
 
+<div class="doc-card" style="background-image: url('https://drive.google.com/thumbnail?id=1YXY3ey7pLas_sA3P2mViQ5q0JVprLIka&sz=w800');" markdown>
+
+### Inkscape
+
+Inkscape and Laser Cutter
+
+[:octicons-arrow-right-24: Read Guide](inkscape.md)
+
+</div>
+
 <div class="doc-card" style="background-image: url('https://fabacademy.org/2025/labs/dgi/students/tsheyang-tshewang/images/week04/a_ide.jpg');" markdown>
 
 ### 📝 Blank Template
