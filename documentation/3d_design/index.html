@@ -1,0 +1,1867 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A personal documentation site for showcasing work, learning, and projects.">
+      
+      
+        <meta name="author" content="Your Name">
+      
+      
+        <link rel="canonical" href="https://yourusername.github.io/yourrepo/documentation/3d_design/">
+      
+      
+        <link rel="prev" href="../template/">
+      
+      
+        <link rel="next" href="../CNC_Frame/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>3D Designing - My Documentation Site</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#3d-designing-with-fusion-360" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="My Documentation Site" class="md-header__button md-logo" aria-label="My Documentation Site" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19 2-5 4.5v11l5-4.5zM6.5 5C4.55 5 2.45 5.4 1 6.5v14.66c0 .25.25.5.5.5.1 0 .15-.07.25-.07 1.35-.65 3.3-1.09 4.75-1.09 1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.31 4.75 1.06.1.05.15.03.25.03.25 0 .5-.25.5-.5V6.5c-.6-.45-1.25-.75-2-1V19c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V6.5C10.55 5.4 8.45 5 6.5 5"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Documentation Site
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              3D Designing
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/yourusername/yourrepo" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    yourusername/yourrepo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../about/" class="md-tabs__link">
+          
+  
+  
+  About Me
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  Documentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../projects/" class="md-tabs__link">
+          
+  
+  
+  Projects
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="My Documentation Site" class="md-nav__button md-logo" aria-label="My Documentation Site" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19 2-5 4.5v11l5-4.5zM6.5 5C4.55 5 2.45 5.4 1 6.5v14.66c0 .25.25.5.5.5.1 0 .15-.07.25-.07 1.35-.65 3.3-1.09 4.75-1.09 1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.31 4.75 1.06.1.05.15.03.25.03.25 0 .5-.25.5-.5V6.5c-.6-.45-1.25-.75-2-1V19c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V6.5C10.55 5.4 8.45 5 6.5 5"/></svg>
+
+    </a>
+    My Documentation Site
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/yourusername/yourrepo" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    yourusername/yourrepo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Home
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About Me
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    About Me
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Documentation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../github-deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deploy to GitHub Pages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../panoptes_basic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panoptes Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../image_statcking_Siril/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stacking with Siril
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../auto_wisp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Light Curve with Auto Wisp
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../expectation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Expectation and Roles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basic_simulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basic Simulation TinkerCad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Softwares
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../led_blink/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blinking LED
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blank Template
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3D Designing
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3D Designing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#downloading-the-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Downloading the software.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interface.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sketching" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sketching
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3d-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3D model
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modifying" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modifying
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Modifying">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#edit-sketch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edit Sketch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edit-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edit Object.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-new-body" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing New Body.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-new-body" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating new Body
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating new Body">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#projection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Projection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extruding-new-body" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extruding new body.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#body" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Body
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fillet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fillet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Final Model.
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CNC_Frame/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CNC Frame (Fusion360)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inkscape/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inkscape
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Projects
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/laser_log.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laser Log
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/project-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project Template
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#downloading-the-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Downloading the software.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interface.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sketching" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sketching
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3d-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3D model
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modifying" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modifying
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Modifying">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#edit-sketch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edit Sketch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edit-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edit Object.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-new-body" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Editing New Body.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-new-body" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating new Body
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating new Body">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#projection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Projection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extruding-new-body" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extruding new body.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#body" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Body
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fillet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fillet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Final Model.
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="3d-designing-with-fusion-360">3D Designing with Fusion 360.<a class="headerlink" href="#3d-designing-with-fusion-360" title="Permanent link">&para;</a></h1>
+<p>In this documentation, we will explore and practice designing using Autodesk fusion 360.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=12UuPOMzddO9BSy0BFGLeQ9YGcZpkL6w9&amp;sz=w800" /></p>
+<h2 id="downloading-the-software">Downloading the software.<a class="headerlink" href="#downloading-the-software" title="Permanent link">&para;</a></h2>
+<p>there are three ways we can download and install the software.</p>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Target Audience</th>
+<th>Cost</th>
+<th>Key Restrictions / Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Personal Use</td>
+<td>Hobbyists, makers, personal projects</td>
+<td>Free</td>
+<td>Non-commercial only; 10 active editable documents limit; limited import/export types; basic manufacturing (2D/3D printing).</td>
+</tr>
+<tr>
+<td>Commercial</td>
+<td>Businesses, freelancers, professionals</td>
+<td>$85/month or $680/year</td>
+<td>Full CAD/CAM/CAE toolset, unlimited active documents, unrestricted access to file formats, professional support.</td>
+</tr>
+<tr>
+<td>Educational</td>
+<td>Students, educators, qualifying institutions</td>
+<td>Free</td>
+<td>1-year renewable subscription for academic/learning purposes only.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>To know more about the types of subscription for fusion <a href="https://www.autodesk.com/products/fusion-360/blog/fusion-subscription-types/">here</a></p>
+</blockquote>
+<p>Once you have any type of subscriptions of any type then you can download the installer and install the software. 
+- Fusion360 is a cloud based application where you can design and when you save it the designs are saved on cloud and all these will be associated with your Autodesk Account.</p>
+<h2 id="interface">Interface.<a class="headerlink" href="#interface" title="Permanent link">&para;</a></h2>
+<p>When you open the software, this is how it will look.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=150oVsjbtZo74oIs63QdCl6xIh_yNmHud&amp;sz=w800" /></p>
+<ol>
+<li>This Panel can be collapsed and it can show all the project files and folder you have with your autodesk account.</li>
+<li>The number 2 indicates the workspace to make your design.</li>
+<li>These are the tools you can use to zoom, pan etc while woorking on your design.</li>
+<li>This is your work timeline where every design and edit will be recorded.</li>
+<li>Account detail and notifications related to your autodesk account.</li>
+<li>This is the navigation cube, rotating the cube will rotate the design on your workplane. </li>
+</ol>
+<h2 id="sketching">Sketching<a class="headerlink" href="#sketching" title="Permanent link">&para;</a></h2>
+<p>To start making your design, in fusion360 every shape startes with a sketch drawn on a profile.</p>
+<ol>
+<li>First start by clicking on the create sketch icon at the top as shown and labeled below as 1.</li>
+</ol>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1FVkzZkBuQ2nlEkMBEnpGbEu_n79v__K3&amp;sz=w800" /></p>
+<ol>
+<li>Once you have selected the create sketch then you need to select the plan where you want to make tge sketch.</li>
+</ol>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1yuoDTa6u3snL8KD5rRbKQGQIZL_6pxFK&amp;sz=w800" /></p>
+<ol>
+<li>Once you have you are in scetch format, you will notice that even the interface will also change. In this mode we will be able to make 2D sketches.</li>
+</ol>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1AZhkP8T62hPBf1fI6V7_aUVeU9aTomX3&amp;sz=w800" /></p>
+<ol>
+<li>Now inside this sketch mode we will make a square or a rectangle as shown below:</li>
+</ol>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=14DztOaU1iQ3UkWdQsjaIor5G8XAuaCXs&amp;sz=w800" /></p>
+<ul>
+<li>you can click on the rectangle icon as labeled 1 above.</li>
+<li>Once you click on the type of shape you want then a side panel specific to the shape will appear and for this design purpose I will be using centre rectangle.</li>
+<li>Then we can click at the origin as the centre of the rectangle and drag or give dimensions as per the requirment. You can shift from length to width by click on tab button.</li>
+<li>Once the dimension is done you can click Enter.</li>
+</ul>
+<h2 id="3d-model">3D model<a class="headerlink" href="#3d-model" title="Permanent link">&para;</a></h2>
+<p>Now once that you have sketch, we can use the shortcut key 'E' to enable the extrude fuction and then you can select the sketch you want to extrude.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1Nb_hwGk5_McAbSI3TmQjQHS4WJUQxdqk&amp;sz=w800" /></p>
+<p>once you have selected the face then an arrow will appear, using that arrow you can adjust the thickness of the face that you have just selected as shown below or you can directly give a dimension.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1sX9kFPMlUVUDf_aqzjXoniJKIVoig0bN&amp;sz=w800" /></p>
+<p>And on the right hand side of the screen you will see a panel where you can adjust what kind of operation you would like to have while extruding.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1rWPZXj8PskoChH3qY8Z5pBkBC758iNi6&amp;sz=w800" /></p>
+<h2 id="modifying">Modifying<a class="headerlink" href="#modifying" title="Permanent link">&para;</a></h2>
+<p>Now that we have created our 3D model but for design purpose we will create a box.</p>
+<ul>
+<li>image of final model.</li>
+</ul>
+<p>Now for a box we need the internal part of the object to be hollow therefore we need to create a boundary sketch as given below.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1yhz9Q7gWeP7ZIV8pRs-rryfQoS6-yz-2&amp;sz=w800" /></p>
+<p>Therefore to do this we can make use of the timeline which can be found at the base of the interface.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1pIMe4--Ldn6tN5CFeFVdyg_-S5WG6qox&amp;sz=w800" /></p>
+<ul>
+<li>right click on the sketch where you would like to edit.</li>
+<li>then click on edit sketch </li>
+</ul>
+<p>Now you go back in time and now we can edit some changes and accordingly the features ahead of the timeline will also update.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1QqKdnEvqNOQeXQqHAK6dEtW79OWHToKF&amp;sz=w800" /></p>
+<p>Now as you can see we can edit our first sketch. </p>
+<h3 id="edit-sketch">Edit Sketch<a class="headerlink" href="#edit-sketch" title="Permanent link">&para;</a></h3>
+<p>To create a sketch with equal ratio offset on all side we can use the offset feature.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1U9pJJrY7q3pbbDmPHiDghKsADhdH1Bdy&amp;sz=w800" /></p>
+<ol>
+<li>Click the offset tool from the menu</li>
+<li>Select the reference sketch</li>
+<li>Drag the line inside or</li>
+<li>Define the offset length.</li>
+<li>Click OK</li>
+</ol>
+<p>After clicking ok, we can see a new sketch inside our original sketch.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1B4GFtF5B44--Rg_etHbxmwwqI4iA2KOw&amp;sz=w800" /></p>
+<ul>
+<li>Then once your done you can click on Finish to complete the edit.</li>
+</ul>
+<h3 id="edit-object">Edit Object.<a class="headerlink" href="#edit-object" title="Permanent link">&para;</a></h3>
+<p>After finishing your sketch you will be back on lattest timeline and we will also see the solid cube.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1krO7Mhve6o2zECzibpNGWNA_sXzqAZbc&amp;sz=w800" /></p>
+<ol>
+<li>click the down arrow of the sketch tab. This will show all the sketches that we had created.</li>
+<li>Click on the EyeBall icon and now we can see our oudated sketch.</li>
+</ol>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1zzCacOMxV1QRujQ5nKkmHuZFBTtowush&amp;sz=w800" /></p>
+<p>The above image shows the view from the base. Then you can click/Select the internal square and press 'E' (Extrude)</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1cATfK5PFUK4Z12YeloraAGaMK0XIFKV0&amp;sz=w800" /></p>
+<p>Now if we move around the navigation cube then we can see a hollow shape.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1AG8afw9c6vnu88j0kyviEwxvBAyb8xIc&amp;sz=w800" /></p>
+<h3 id="editing-new-body">Editing New Body.<a class="headerlink" href="#editing-new-body" title="Permanent link">&para;</a></h3>
+<p>Now that we have our 3D model with edges and faces. Similar to making sketches in on the XYZ plane, we can also make sketches on a face of one of the side of the 3D model.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1zXFMoKGuEoUystb4JURYc8G1uRQmCVkK&amp;sz=w800" /></p>
+<p>to create sketch on the face (indicated by 1 in the image above), we can select the face and click on the create sketch on the top left corner (indicated by 2 in the image above)</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1UwNhNrwpwrtdwFezjfj30Gl8o4Yl438v&amp;sz=w800" /></p>
+<p>once we enter the sketch mode, the interface will change to sketch mode where we can make the sketch and since this time we will make the circle.
+1. click and selct the circle option.
+2. On the right hand side you can select the type of circle you want to make. (Centre Diameter Circle or Two-Point Circle or Three-Point Circle or Circle based on tangent)
+3. Then you can select the type of line (you want to make a construction lin or profile line)
+4. Then select the center point of the circle and drag or give dimensions as per the requirment.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1VYFb4xEEXtMs33uiSK49F4ArQjmOGUm6&amp;sz=w800" /></p>
+<p>for this design we will make a center diameter circle and set the diameter to 30 mm as shown above.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1mbAJorqUH7bzWoRYFGeZ8aPHTHP_MZLj&amp;sz=w800" /></p>
+<p>Then we want to make a hole from the center of the circle to the base of the object using the extrude tool. To extrude and make a hole
+1. Click 'E' to enable the extrude option
+2. Select the circle profile
+3. drag the arrow downwards to make a hole. (You can also use the arrow to adjust the depth of the hole)</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1iM-KCUY2EKSS-cwhbMPIoj9atQTSns6d&amp;sz=w800" /></p>
+<p>In the above image, you will notice on the right side indicate the cut operation therefore where ever you drag the arrow the solid material will be removed from the object. (Indicated by a Red Color)</p>
+<h3 id="section-analysis">Section Analysis<a class="headerlink" href="#section-analysis" title="Permanent link">&para;</a></h3>
+<p>To view the solid object in a cross-section we can use the section analysis tool. </p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=11Zq3Jccqg1hH9ewWwI7kbZSr1JHGE81e&amp;sz=w800" /></p>
+<ol>
+<li>Click on the Inspect tab in the top menu bar.</li>
+<li>Click on the Section Analysis tool.</li>
+<li>And select the face or plane you want to use to show the section.</li>
+</ol>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=11Zq3Jccqg1hH9ewWwI7kbZSr1JHGE81e&amp;sz=w800" /></p>
+<p>once you have slected the slicing plan then you can drag it to adjust the section to a desiable location.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1AIcHbBDHr7ZX9nOXTRnVVaRDTqoq5lIH&amp;sz=w800" /></p>
+<p>The image given shows the section part of the model.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1iEZAOMtESc6FW4UxyNXswd3GFEVIy-ET&amp;sz=w800" /></p>
+<ol>
+<li>Origin : This will shown the XYZ plane and the origin</li>
+<li>Section : Once you have created a sesction then you will see the section.</li>
+<li>Body : What ever 3D model you create, it will be listed here.</li>
+<li>Sketches : Whatever 2D sketches you make make will be listed here.</li>
+<li>The number five shows the sketch that we had created in the begining.</li>
+</ol>
+<p><strong>You can toggle the eyeball to make the object/sketch/origin visible or hide it</strong></p>
+<h2 id="creating-new-body">Creating new Body<a class="headerlink" href="#creating-new-body" title="Permanent link">&para;</a></h2>
+<p>Now if we want to create a new body that is seperate from the previous body we made. Therefore for this activity we will make a lid for the containner.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1ibq1IBrONRTI9tSm-FBNNMns2kHKGJv6&amp;sz=w800" /></p>
+<p>To make a solid object, we first need a 2D profile to extrude from. And as shown above we dont have a profile to extruce from but we can use the shape and make 2D profile.</p>
+<h3 id="projection">Projection<a class="headerlink" href="#projection" title="Permanent link">&para;</a></h3>
+<p>We will make use the project feature of the sketch mode and for that we cna click on the key 'P' and then slect the face where you want to project.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1ThSxduGuT3inhbY8cVpGJIpL0rfL9qH5&amp;sz=w800" /></p>
+<p>Once you click the P key and then you can select the face you want to project. Once you have selected the face and then you can click OK and this will project the profile on the plan you have selected.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=16zRyC3ZJW7b5b79H1UorbKtPuednjzfc&amp;sz=w800" /></p>
+<p>after projection is done you will see a purple lines around the edge of the base. These purple lines are the projected profiles. Click finish sketch and then you can start seeing the profile to select and make a new solid body.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=17hNHxnO0-qPi6yqieqRLcO-SYGc4zToz&amp;sz=w800" /></p>
+<p>you can hover over the projected surface and now you will be able to select the face to extrude.</p>
+<h3 id="extruding-new-body">Extruding new body.<a class="headerlink" href="#extruding-new-body" title="Permanent link">&para;</a></h3>
+<p>Now that we cane select the faces, to make the lid we will press 'E' and then select the two faces.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1Uk9EDC_-EacToHxHXw9a3Sd55GI4TGaW&amp;sz=w800" /></p>
+<p><strong>Note : Do not forget to change the operation from Cut to New Body</strong></p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1y0yuA9RjReVHlV9ZgUUy6CDlP1gNoP1e&amp;sz=w800" /></p>
+<p>Now you can toggle the <strong>Hide Bodies</strong> to hide the container body and you can see the lid created. or you can enable the section so that you can see the inside part better.</p>
+<p>Now since will also have a internal hollow space where the lid will sit in, we will use the sketch that we had made using the projection mathod earlier. You can enable the visibility of the sketch using the eyeball icon.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1gOIY9aoSFbdmE-Mbn5wmznKKsApAsU9d&amp;sz=w800" /></p>
+<p><strong>Note : Do not forget to change the operation from Cut to New Body. Also drag the arrow slightly outside like shown in the image</strong></p>
+<p>After you are done creating two new bodies that we can use to make the lid by using the combine feature.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1iwhwZyJQetZFpkqHEU27R8M5nGPjdhI4&amp;sz=w800" /></p>
+<p>Once you click the combine tool, you will see a dialog box where you can select the Target Body and the Tool Body. Once both the bodies are selected then you can click ok and the two bodies will be combined.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1J2M6lJIGPBq9u6b-juLZw_mG8G4VLUP2&amp;sz=w800" /></p>
+<p>Now that we have our lid completed and next we can make a fixed base for the box at the opposite side of the Lid.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1vOtrY2HxdQGfzUMYiGLxUE04424gxITu&amp;sz=w800" /></p>
+<p>We will follow the same steps as we did earlier that is by using the projection method to have a profile to select and then excrude it.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1hYUu_gTPS5GUq5ZPkb4kAclXFqkOrZmh&amp;sz=w800" /></p>
+<p>In this case, since we have to make sure it is a enclosed one therefore make sure to select both the profile (the wall and in the inside space). and for this purpose we will select the operation as join so that the new body is connected with first body.</p>
+<h3 id="body">Body<a class="headerlink" href="#body" title="Permanent link">&para;</a></h3>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1AsCfjgCw3bjLQo3i22QtAu8UhmYtG4X9&amp;sz=w800" /></p>
+<p>after the lid and the base is made, enabled the section analysis again to see the difference between joined operation and the new body operation.</p>
+<h3 id="fillet">Fillet<a class="headerlink" href="#fillet" title="Permanent link">&para;</a></h3>
+<p>To make the model look smooth especially at the edges we can use the fillet feature.</p>
+<p><img alt="Description" src="https://drive.google.com/thumbnail?id=1N18IJd3d0szAdckmOGFPGzY4KGwj7GqA&amp;sz=w800" /></p>
+<p>After selecting the feature we can then select the edges we want to fillet and define the dimension according to the need.</p>
+<h2 id="final-model">Final Model.<a class="headerlink" href="#final-model" title="Permanent link">&para;</a></h2>
+<div class="sketchfab-embed-wrapper"> <iframe title="Box" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/8106d470dd5f4f7b9e885441de35e033/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/box-8106d470dd5f4f7b9e885441de35e033" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Box </a> by <a href="https://sketchfab.com/anithghalley" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> anithghalley </a> on <a href="https://sketchfab.com" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/yourusername" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" title="LinkedIn" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "navigation.instant", "navigation.instant.progress", "search.suggest", "search.highlight", "content.code.copy", "content.tabs.link", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
