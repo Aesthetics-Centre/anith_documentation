@@ -61,7 +61,7 @@ This subtab will stores podcast where we will record casual interaction from som
 
 ![commonroom](https://drive.google.com/thumbnail?id=1NuJwNYos2JrVIjkUbt6RK54wVrGC8SBQ&sz=w800)
 
-# After Sign-In
+## After Sign-In
 
 When a user sign In, based on the users role there are three dashboard
 
@@ -69,7 +69,7 @@ When a user sign In, based on the users role there are three dashboard
 2. Team
 3. User
 
-## User Dashboard
+### User Dashboard
 
 Any first time approved user will be assigned then role of USER and these is the dashboard after successful sign in.
 
@@ -92,6 +92,6 @@ Any first time approved user will be assigned then role of USER and these is the
 
 ![learning_report](https://drive.google.com/thumbnail?id=1aqMFd2gW1-r8xKhl3eGoom9BvIu6RB81&sz=w800)
 
-## Team and Admin
+### Team and Admin
 
 Coming Soon .....
