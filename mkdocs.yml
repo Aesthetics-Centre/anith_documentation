@@ -161,6 +161,7 @@ nav:
       - 3D Designing: documentation/3d_design.md
       - CNC Frame (Fusion360) : documentation/CNC_Frame.md
       - Inkscape : documentation/inkscape.md
+      - Website : documentation/website.md
 
   - Projects:
       - Overview: projects/index.md
